@@ -17,6 +17,7 @@ OnWebPageInit
     }
 # TinyMCE интеграция в список стилей
 ***Формат:*** Важный блок,important-block,div|Зеленый текст,green-text,span
+
 ***Изменения, которые необходимо внести:***
 В файле bridge.tinymce4.inc.php, в методе bridge_style_formats:
 ```php
