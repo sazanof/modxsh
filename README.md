@@ -1,5 +1,6 @@
 # modxsh
 ![screenshot of sample](http://i88.fastpic.ru/big/2016/1230/99/31ab2e2fbe6c052720c5e3a7e5059b99.png)
+
 Плагин автоматической подсветки кода во фронтенде MODx Evo
 # События
 OnWebPageInit
