@@ -1,14 +1,14 @@
 //<?php
 /**
- * CodeMirror
+ * MODxSH
  *
  * JavaScript library that can be used to create a relatively pleasant editor interface based on CodeMirror 5.12
  *
  * @category    plugin
- * @version     1.4
+ * @version     1.1
  * @license     http://www.gnu.org/copyleft/gpl.html GNU Public License (GPL)
  * @package     modx
- * @internal    @events OnDocFormRender,OnChunkFormRender,OnModFormRender,OnPluginFormRender,OnSnipFormRender,OnTempFormRender,OnRichTextEditorInit
+ * @internal    @events OnLoadWebDocument
  * @internal    @modx_category Manager and Admin
  * @internal    @properties &theme=Theme;list;Default,Django,Eclipse,Emacs,Fade To Grey,Midnight,RDark;Default
  * @internal    @installset base
