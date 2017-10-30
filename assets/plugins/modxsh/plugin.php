@@ -41,8 +41,7 @@ switch ($e->name) {
     case 'OnLoadWebDocument':
         $f = array('<code>','</code>','language-php','language-html');
         $r = array('','','brush: php','brush: html');
-        $modx->documentContent = str_replace($f,$r,$modx->documentContent);
-        //die;
+        $modx->documentObject['content'] = str_replace($f,$r,$modx->documentObject['content']);
         $theme = isset($theme) ? $theme : 'Default';
         $cssTheme = 'shTheme' . $theme . '.css';
         $cssTheme = str_replace(' ', '', $cssTheme);
